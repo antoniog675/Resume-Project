@@ -256,3 +256,26 @@ footer {
     position: relative;
     width: 60%;
 }
+
+/*  Skills */
+
+.progress {
+    position: relative;
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+/* To position a div to wanted position its parent needs to have a position of relative, and the child div must have the position absolute */
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10x;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
